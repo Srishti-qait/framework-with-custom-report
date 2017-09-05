@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testng Suite]">
+  <listeners>
+    <listener class-name="com.qait.utils.CustomReport"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.qait.test.Flipkart_searchtab">
+        <methods>
+          <include name="Test001_searchTab"/>
+        </methods>
+      </class> <!-- com.qait.test.Flipkart_searchtab -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Testng Suite] -->
